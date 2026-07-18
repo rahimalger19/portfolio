@@ -50,3 +50,16 @@ h1{
   padding: 15px;
   color: white;
 }
+@media (max-width: 768px) {
+  .projects {
+    padding: 40px 25px;
+  }
+  .projects h1,
+  h1 {
+    font-size: 36px;
+    margin-left: 0;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

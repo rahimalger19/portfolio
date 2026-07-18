@@ -49,3 +49,33 @@
 .hero-buttons button:hover{
     background-color: #35509078;
 }
+@media (max-width: 768px) {
+  .hero {
+    width: 90%;
+  }
+  .hero h1 {
+    font-size: 42px;
+  }
+  .hero-text {
+    font-size: 14px;
+  }
+  .hero-buttons button {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-buttons button {
+    width: 100%;
+    max-width: 250px;
+  }
+}
